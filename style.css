@@ -1,0 +1,88 @@
+body{
+    background: radial-gradient(rgba(62, 196, 28, 0.09), rgba(35, 217, 162, 0.81));
+}
+
+h1 {
+    margin: 5%;
+    text-align:center;
+    font-family: verdana;
+    font-size: 35px;
+    color:#44c767;
+    background-color:transparent;
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+#description{
+    margin: 6%;
+    text-align:center;
+    font-family: verdana;
+    font-size: 18px;
+    color:#44c767;
+    background-color: transparent;
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+.minute-button {
+	box-shadow: 0px 10px 14px -7px #44c767;
+	background:linear-gradient(to bottom,#44c767 5%,  #44c767 100%);
+	background-color:#44c767;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px  #44c767;
+    background-position-x: center;
+    background-position-y:center;
+}
+.minute-button:hover {
+	background-color:#5cbf2a;
+}
+.minute-button:active {
+	position:relative;
+	top:1px;
+}
+
+#time-buttons-container{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        
+}
+
+#cancel-container{
+    margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+}
+#cancel-button {
+	box-shadow: 0px 10px 14px -7px #44c767;
+	background:linear-gradient(to bottom,#44c767 5%,  #44c767 100%);
+	background-color:#44c767;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px  #44c767;
+}
+#cancel-button:hover {
+	background-color:#5cbf2a;
+}
+#cancel-button:active {
+	position:relative;
+    top:1px;
+    
+}
